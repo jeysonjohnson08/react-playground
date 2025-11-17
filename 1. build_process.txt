@@ -1,0 +1,16 @@
+
+Modern JS projects (like React) don’t need `<script>` tags because bundlers(Webpack, Parcel, Vite, or Create React App)
+ automatically include and optimize your JavaScript.
+
+The code written is transformed before its handed off to the browser.
+
+why
+- Unprocessed react code won't execute on the browser.(Jsx feature)
+- The code is not optimized for production.
+
+Node.js is essential in this process:
+-Runs build tools and scripts.
+-Manages packages via npm or Yarn.
+-Powers local development servers (npm start).
+
+In short: Node.js handles all the tooling and automation, while the browser runs the final optimized code.
