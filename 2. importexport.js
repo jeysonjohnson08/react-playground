@@ -12,3 +12,11 @@
 // import apikey from "./importexport.js"; <- we can use any name to import
 // console.log(apikey)
 // it is useful if you only have one thing to export in a file.
+
+function transformToObjects(numberArray){
+    const result = numberArray.map((num)=>({val,num}))
+    return result
+}
+
+const res = transformToObjects([1,2,3])
+console.log(res)

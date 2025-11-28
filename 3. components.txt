@@ -1,0 +1,5 @@
+Components wrap relative html css and js code logic and together they control a part of the UI.
+This allows the dev to convert complex UI into smaller more manageble parts. which can also be reused.
+Without components = larger complex html files, more error prone code.
+Related code can be stored together in components(Html and js).
+Seperation of concerns. (Different components handle diffrent logic and data)
